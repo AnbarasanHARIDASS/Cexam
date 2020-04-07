@@ -3,4 +3,5 @@
 
 #define STACK SIZE 10
 
-struct stack ∗  new_stack ( ) 
+struct stack ∗  new_stack ( )
+char top(stack* st)

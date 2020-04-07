@@ -16,6 +16,15 @@ struct stack ∗  new_stack ( )
   st->size = 0;
   return st;
 }
+char top(Stack* st)
+{
+  if(empty(st))
+  {
+    printf("stack empty\n");
+    exit(exit_failure);
+  }
+  return st->elements[st->top];
+}
 int main ( )
 {
 struct stack ∗ st = new stack ( ) ;
