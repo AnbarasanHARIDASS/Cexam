@@ -25,6 +25,10 @@ char top(Stack* st)
   }
   return st->elements[st->top];
 }
+int size(Stack* st)
+{
+  return st->size;
+}
 int main ( )
 {
 struct stack ∗ st = new stack ( ) ;

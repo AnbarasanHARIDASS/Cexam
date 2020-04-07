@@ -5,3 +5,4 @@
 
 struct stack ∗  new_stack ( )
 char top(stack* st)
+int size(Stack* st)
