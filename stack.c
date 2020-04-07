@@ -29,7 +29,7 @@ int size(Stack* st)
 {
   return st->size;
 }
-void push(Stack* st, char i)
+void pus(Stack* st, char i)
 {
   st->top++;
     st->size++;
