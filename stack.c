@@ -29,6 +29,14 @@ int size(Stack* st)
 {
   return st->size;
 }
+void push(Stack* st, char i)
+{
+  st->top++;
+    st->size++;
+      st->elements[st->top]=i;
+
+}
+
 int main ( )
 {
 struct stack ∗ st = new stack ( ) ;
