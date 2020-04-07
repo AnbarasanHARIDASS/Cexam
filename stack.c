@@ -36,6 +36,15 @@ void pus(Stack* st, char i)
       st->elements[st->top]=i;
 
 }
+char pop(Stack* st)
+{
+  int elements=top(st);
+  st->top--;
+    st->size--;
+    return elements;
+
+}
+
 
 int main ( )
 {
